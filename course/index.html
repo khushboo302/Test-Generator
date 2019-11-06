@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width= device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+
+
+<div id="mainContainer">	
+	<div id="topBar">
+		<div id="logoImage">
+			<img src="images/prozo-logo.png" />
+		</div>
+		<div id="navigation">
+			<ul id="topMenu">
+				<li id="topMenu1"><a class="active" href="#deatils">Enter Details</a></li>
+				<li id="topMenu2"><a class="inactive" href="#chapters">Select Chapters</a></li>
+				<li id="topMenu3"><a class="inactive" href="#questions">Select Questions</a></li>
+				<!-- <li><a class="inactive" href="#marks">Select Marks</a></li> -->
+				<li id="topMenu4"><a class="inactive" href="#test">Preview Test</a></li><!-- 
+				<li><a class="inactive" href="#summary">Test Summary</a></li> -->
+			</ul>
+		</div>		
+	</div>
+	
+	<div id="div1" class="detailsSection centerContainer">
+		<div id="headerDetails">Enter Details for the Test</div>
+		<div id="detailCenter">
+			<div class="detailsLeft">Test Name <input class="detailsInput" id="testName" type="text" /></div>
+			<div class="detailsRight">Test Duration <input class="detailsInput" type="text" id="testDuration" name="testDuration" value="10" readonly style="width: 15vmin;">Minutes<br>
+			<input type="range" id="input" name="input" min="10" max="120" step="10" value="10" style="width: 20vmin; position: absolute; left: 20vmin;     top: 6vmin; height: 4vmin;"/> </div>
+			<!-- 
+			
+			<input class="detailsInput" readonly id="testDuration" type="number" min="10" max="120" step="10" style="width: 15vmin;"/>  -->
+			
+			
+			<div class="detailsLeft" style="top: 42vmin;left: 17vmin;">Mode 
+				<select class="detailsInput" id="testMode" name="mode" style="width: 22vmin;">
+					<option value="Manual">Manual</option>
+					<option value="Auto">Auto</option>
+				</select>
+			</div>
+			<div class="detailsRight" style="top: 42vmin; right: 29vmin;">Logo (if Any)
+				<input class="detailsBrowse" type='file' id="imgInp" />
+				<div class="detailImage">
+					<img id="blah" src="#" alt="" />
+				</div>				
+			</div>
+		</div>		
+	</div>
+	
+	<div id="div2" class="centerContainer hideDivs">
+		<div id="headerDetails">Select Chapters for the Test</div>
+		<div id="detailCenter">
+			<div id="selectAllContainer">
+				<input type="checkbox" id="selectAll" value="Select All"/>Select All
+			</div>
+			<div class="selectChapters"></div>
+		</div>		
+	</div>
+	
+	<div id="div3" class="centerContainer hideDivs">
+		<div id="headerDetails">Select the Type of Question</div>
+		<div id="detailCenter">
+			<div id="showMode">
+				<select id="questionMode">
+					<option id="0" class="questType" value="select">Select Question Type</option>
+				</select>
+				<div id="questionButton" class="buttons"><img style="width: 16vmin;" src="images/select.png" /></div>
+			</div>
+			<div id="showquestions">
+				<div id="AddButton" class="buttons"><img id="addButtonImage" style="width: 17.5vmin;" src="images/addQuestion.png" /></div>
+			</div>			
+			<div id="displayQuestions">		
+				<div id="questionContent"></div>			
+			</div>
+		</div>		
+	</div>
+	
+	<div id="div4" class="centerContainer hideDivs">
+		<div id="headerDetails">Preview Test</div>
+		<div id="detailCenter">
+			<div id="printButton">
+				<img id="printButtonImage" src="images/print.png" />
+			</div>
+			<div id="showCopyMode">
+				<select id="copyMode">
+					<option value="Student's Copy">Student's Copy</option>
+					<option value="Teacher's Copy">Teacher's Copy</option>
+				</select>
+				<div id="copyButton" class="buttons"><img id="copyButtonImage" style="width: 16vmin;" src="images/select.png" /></div>
+			</div>
+			<div id="printContent">				
+				<div id="previewContent">
+					<!-- <div id="previewLogo" style="text-align: center; padding: 2vmin;"></div> -->
+					<div id="previewName" style="text-align: center; padding: 2vmin;"></div>
+					<div id="previewCopy" style="text-align: center; padding: 2vmin;"></div>
+					<div id="previewDate" style="text-align: right; padding: 2vmin;"></div>
+					<div id="previewTimeMarks" style="padding-bottom: 3vmin;">
+						<div id="previewTimeContainer" style="position: absolute; margin-left: 3vmin;"><strong>Time:</strong> <span id="previewTime"></span> Mins</div>
+						<div id="previewMarksContainer" style="position: absolute; right: 7vmin;"><strong>Marks:</strong> <span class="emptyContent" id="previewMarks"></span></div>
+					</div>
+					<div class="showQuestions emptyContent">
+						<!-- <div id="tof"></div>
+						<div id="short"></div> -->
+					</div>
+				</div>	
+			</div>
+		</div>		
+	</div>
+	
+	
+	<div id="bottomBar">
+		<div id="back" class="buttons" style="margin-top: 0.2vmin; margin-left: 7vmin;"><img id="backButton" style="width: 7.5vmin;" src="images/back.png" /></div>
+		<div id="next" class="buttons" style="margin-top: 0.2vmin; margin-right: 0vmin;"><img id="nextButton" style="width: 7.5vmin;" src="images/next.png" /></div>
+		<div id="totalNoofQuestions" class="showBottomButtons">Total No. of questions selected: <span id="questSelected">0</span></div>
+		<div id="totalMarksforEachQuestion" class="showBottomButtons">Total Marks: <span id="totalMarks">0</span></div>
+	</div>
+	<div id="hideNext"></div>
+	<div id="hideBack"></div>
+	<div id="hideQuestion"></div>
+</div>
+<div id="alertContainer1">
+	<div class="alertBox">
+		<div class="innerBox">ALERT!!!</div>
+		<div class="outerBox">
+			<p class="alertContent"></p>
+			<div class="alertOkayButton"><img id="okayButton" src="images/okayButton.png" /></div>
+		</div>		
+	</div>
+</div>
+<div id="alertContainer2">
+	<div class="alertBox">
+		<div class="innerBox">ALERT!!!</div>
+		<div class="outerBox">
+			<p class="alertContent"></p>
+			<div class="alertYesButton"><img class="YesNoButton" src="images/YES.png" /></div>
+			<div class="alertNoButton"><img class="YesNoButton" src="images/NO.png" /></div>
+		</div>		
+	</div>
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html> 
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width= device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+<div id="mainContainer">	
+	<div id="topBar">
+		<ul>
+			<li><a class="active" href="#deatils">Enter Details</a></li>
+			<li><a class="inactive" href="#chapters">Select Chapters</a></li>
+			<li><a class="inactive" href="#questions">Select Questions</a></li>
+			<li><a class="inactive" href="#marks">Select Marks</a></li>
+			<li><a class="inactive" href="#test">Preview Test</a></li>
+			<li><a class="inactive" href="#summary">Test Summary</a></li>
+		</ul>
+	</div>
+	
+	<div id="div1" class="detailsSection">
+		<div>Test Name: <input id="testName" type="text" /></div>
+		<div>Test Duration: <input id="testDuration" type="number" min="0"/> Minutes</div>
+		<div>Mode: 
+			<select id="testMode" name="mode">
+				<option value="Manual">Manual</option>
+				<option value="Auto">Auto</option>
+			</select>
+		</div>
+		<div>
+			<input type='file' id="imgInp" />
+			<img id="blah" src="#" alt="your image" />
+		</div>
+	</div>
+	
+	<div id="div2" class="selectChapters hideDivs"></div>
+	
+	<div id="div3" class="selectQuestions hideDivs">
+		<div id="showquestions">
+			<select id="questionMode">
+				<option id="0" class="questType" value="select">Select Question Type</option>
+			</select>
+			<div id="questionButton" class="buttons">Okay</div>
+			<div id="AddButton" class="buttons">Add</div>
+		</div>			
+		<div id="displayQuestions">		
+			<div id="questionContent"></div>			
+		</div>
+	</div>
+	
+	<div id="div4" class="previewTest hideDivs">
+		<div id="selectCopy">
+			<select id="copyMode">
+				<option value="Student's Copy">Student's Copy</option>
+				<option value="Teacher's Copy">Teacher's Copy</option>
+			</select>
+		</div>
+		<div id="previewContent">
+			<div id="previewName"></div>
+			<div id="previewCopy"></div>
+			<div id="previewDate"></div>
+			<div id="previewTimeMarks">
+				<div id="previewTime"></div>
+				<div id="previewMarks"></div>
+			</div>
+			<div class="showQuestions">
+				<!-- <div id="tof"></div>
+				<div id="short"></div> -->
+			</div>
+		</div>		
+	</div> 
+	
+	<div id="bottomBar">
+		<div id="back" class="buttons">Back</div>
+		<div id="next" class="buttons">Next</div>
+		<div class="showBottomButtons">Questions Selected: <span id="questSelected">0</span></div>
+		<div class="showBottomButtons">Total Marks: <span id="totalMarks">0</span></div>
+	</div>
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html> 
+

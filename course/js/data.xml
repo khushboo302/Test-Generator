@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<data>
+		<chapters>
+			<chapter num="1">My Family</chapter>
+			<chapter num="2">Our Body</chapter>
+			<chapter num="3">Clothes We Wear</chapter>
+			<chapter num="4">Our School</chapter>
+			<chapter  num="5">Houses We Live In</chapter>
+<!-- 			<chapter  num="6">The Neighbourhood</chapter>
+			<chapter  num="7">People Who Help Us</chapter>
+			<chapter  num="8">Celebrations</chapter>
+			<chapter  num="9">Having Fun</chapter>
+			<chapter  num="10">Plants Around Us</chapter>
+			<chapter  num="11">Animals Around Us</chapter>
+			<chapter  num="12">Land and Water?</chapter>
+			<chapter  num="13">Weather and Seasons</chapter>
+			<chapter  num="14">Time and Finding Places</chapter>
+			<chapter  num="15">Transport</chapter>
+			<chapter  num="16">Staying in Touch</chapter> -->
+		</chapters>		
+		
+		<qtypes>
+			<qtype lbl="fillblank" desc="Fill in the blanks"></qtype>
+			<qtype lbl="tick" desc="Tick the correct option"></qtype>
+			<qtype lbl="Tof" desc="True or false"></qtype>
+			<qtype lbl="match" desc="Match the following"></qtype>
+			<qtype lbl="short" desc="Short answer type questions"></qtype>
+			<qtype lbl="picQ" desc="Picture based questions"></qtype>
+			<qtype lbl="longa" desc="Long answer questions"></qtype>
+		</qtypes>
+	
+		<questions>	 
+		
+			<question chapter="1" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[People in a family are called <br />  i. Care taker <br />  ii. Siblings <br />  iii. Family members <br />  iv. Parents <br /> =How many types of families are there <br />  i. 2 <br />  ii. 5 <br />  iii. 3 <br />  iv. 4 <br /> =Role of family members is <br />  i. To fight <br />  ii. To care <br />  iii. To party <br />  iv. To spend time <br /> =A family that has many members is a <br />  i. Large Family <br />  ii. Nuclear Family <br />  iii. Small Family <br />  iv. Single Parent Family <br /> =A Family is one in which parents live with their <br />  i. Parents <br />  ii. Friends <br />  iii. Father <br />  iv. Children]]></subq>
+				<ans><![CDATA[Family members=4=To care=Large Family=Parents]]></ans>
+			</question>
+			
+			<question chapter="1" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[Members of a family do not celebrate anything.=On weekends or holidays, families go out for picnics, movies or dinner.=Aunt is a sister of only one’s father.=Cousins are also called as siblings.=The members of a family are also called as relatives.]]></subq>
+				<ans><![CDATA[False=True=False=False=True]]></ans>
+			</question>
+			
+			<question chapter="1" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[People living together in the same house make a __________.=Our brothers and sisters are our __________.=China’s Ziona Chana has the world’s largest family with __________ children and ________ grandchildren.=A ___________ is also a large family.=Members of a family live __________.]]></subq>
+				<ans><![CDATA[Family=Siblings=94, 33=Joint family=Together]]></ans>
+			</question>
+			
+			<question chapter="1" type="match">
+				<questTitle><![CDATA[Match directions shared with different countries across boundaries.]]></questTitle>
+				<images><![CDATA[ch_1_ex_4.png]]></images>
+				<ans><![CDATA[Nuclear family=Real brothers and sisters=Four=Relatives=Large Families]]></ans>
+			</question>
+			
+			<question chapter="1" type="picQ">
+				<questTitle><![CDATA[Look at the Picture below.]]></questTitle>
+				<subq><![CDATA[What type of family is represented in the above picture?]]></subq>
+				<images><![CDATA[ch_1_ex_5.png]]></images>
+				<ans><![CDATA[The type of family represented in the given picture is a single parent family, where the children live with either their mother or their father.]]></ans>
+			</question>
+			
+			<question chapter="1" type="short">
+				<questTitle><![CDATA[Short answer type questions]]></questTitle>
+				<subq><![CDATA[What is the role of families in our lives?=How do families spend time together?]]></subq>
+				<ans><![CDATA[Members of a family live together. Every member has a special role to play. Our parents take care of all our needs. Grandparents also play with us and tell us good stories.=Members of a family have fun together. They celebrate special days like birthdays and anniversaries. They host parties and invite their friends and relatives. A family also celebrates festivals together.]]></ans>
+			</question>
+			
+			<question chapter="1" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[How many types of families exist? Write about each of them.]]></subq>
+				<ans><![CDATA[A large family is one which has many members living together. Grandparents are an important part of such families. In a large family, the grandparents, parents and children live together.Some of us also have our uncles, aunts and cousins living together with us. A family in which grandparents, parents, uncles, aunts, brothers, sisters and cousins live together is called a joint family. A joint family is also a large family.
+							  A small family is one in which parents live with their children. Such families are also called nuclear families. There are also some families where the children live with either their mother or their father. Such families are called single parent families.]]></ans>
+			</question>
+			
+			<question chapter="2" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[The tongue has ________ taste buds. <br />  i. 2000-6000 <br />  ii. 6000-8000 <br />  iii. 5000-6000 <br />  iv 3000-10000 <br />=Taste buds helps us to taste:- <br />  i. Variety of foods <br />  ii. Only Juice <br />  iii. Only milk <br />  iv. Junk food <br /> =Bad food for our body is:- <br />  i. Fruits <br />  ii. Junk Food <br />  iii. Lunch <br />  iv. Dinner <br /> =The most important part of the body is:- <br />  i. Brain <br />  ii. Heart <br />  iii. Lungs <br />  iv. Bones <br />=What makes our bones strong :- <br />  i. Chocolates <br />  ii. Milk <br />  iii. Pizzas <br />  iv. Burger]]></subq>
+				<ans><![CDATA[3000-10000=Variety of foods=Junk Food=Brain=Milk ]]></ans>
+			</question>
+			
+			<question chapter="2" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[The first meal of the day is called lunch._____=We must eat our food at anytime.____=Right food is also called healthy food._____=We should not clip our nails regularly.____=We must keep our body clean and tidy._____]]></subq>
+				<ans><![CDATA[False=False=True=False=True]]></ans>
+			</question>
+			
+			<question chapter="2" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[Most of us eat three meals in a day _________, ___________ and________.=We must sleep for eight to ten hours ___________.=We should wash our __________ before and after meals.=__________ is the second meal of the day.=The __________ pumps blood to the different parts of our body.]]></subq>
+				<ans><![CDATA[Breakfast, lunch, dinner=Everyday=Hands=Lunch=Heart]]></ans>
+			</question>
+			
+			<question chapter="2" type="match">
+				<questTitle><![CDATA[Match the column.]]></questTitle>
+				<images><![CDATA[ch_2_ex_3.png]]></images>
+				<ans><![CDATA[Healthy and fit=Breakfast and lunch=Eight to ten hour=Bones]]></ans>
+			</question>
+			
+			<question chapter="2" type="picQ">
+				<questTitle><![CDATA[Look at the Picture below.]]></questTitle>
+				<subq><![CDATA[Which meal is this?]]></subq>
+				<images><![CDATA[ch_2_ex_5.png]]></images>
+				<ans><![CDATA[The picture given here represents our lunch. Lunch is the second meal of the day. We eat it in the afternoon. We usually eat dal, vegetables, rotis, rice, meat, salads, etc., for lunch.]]></ans>
+			</question>
+			
+			<question chapter="2" type="short">
+				<questTitle><![CDATA[Short answer type questions.]]></questTitle>
+				<subq><![CDATA[Why does our body need food?=We should avoid bad food. Why?]]></subq>
+				<ans><![CDATA[Just like a vehicle needs petrol or diesel to run on, our body needs food. Food gives energy to our body. Our body needs different types of food at different times of the day. They help the different parts of the body to work.=Wrong food is also called unhealthy food or junk food. We should not eat wrong food or junk food like chocolates, pizzas, burger, etc., too often. It makes us unhealthy and we may fall sick.]]></ans>
+			</question>
+			
+			<question chapter="2" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[What is a meal? How many meals does one take in a day generally? What are these meals called?]]></subq>
+				<ans><![CDATA[We must eat our food at fixed times. These are called our meals. Most of us eat three meals in a day—breakfast, lunch and dinner.
+				The first meal of the day is called breakfast. We should eat a healthy breakfast. One can eat eggs, cereals, idli, upma, etc., for breakfast.
+				Lunch is the second meal of the day. We eat it in the afternoon. We usually eat dal, vegetables, rotis, rice, meat, salads, etc., for lunch.
+				The last meal of the day is called dinner. A family mostly has dinner together. We should eat light food for dinner as we do not do any activity after that. We must eat dinner two hours before we go to sleep.
+				]]></ans>
+			</question>
+			
+			<question chapter="3" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions.]]></questTitle>
+				<subq><![CDATA[Clothes made up of cotton and linen keeps us:- <br />  i. Hot <br />  ii. Cool<br />  iii. Wet <br />  iv. Dry <br /> =We wear clothes based on:- <br />  i. Weather and occasion <br />  ii. Fashion <br />  iii. Year <br />  iv. Month <br /> =We use an umbrella in:- <br />  i. Winter season <br />  ii. Summer season <br />  iii. Rainy season <br />  iv. Autumn season <br /> =We get silk from the <br />  i. Book worm <br />  ii. Ant  <br />  iii. Earth worm <br />  iv. Silk worm <br />=We wear sweaters and scarf in :- <br />  i. Summer season <br />  ii. Spring season <br />  iii. Winter season  <br />  iv. Rainy season]]></subq>
+				<ans><![CDATA[Cool=Weather and occasion=Rainy season=Silk worm=Winter season ]]></ans>
+			</question>
+			
+			<question chapter="3" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[In India, none of the states have any traditional dress.=Uniform is worn for a particular purpose.=Mahatma Gandhi wove his own cloth on a small hand machine called charkha.=We get cotton from the bookworm.=Clothes made of cotton and linen keeps us cool.]]></subq>
+				<ans><![CDATA[False=True=True=False=True]]></ans>
+			</question>
+			
+			<question chapter="3" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[Sheep hair is spun into ________.=We wear different _______ during different times of the year.=The _________ is extremely cold.=_______ comes to us from silkworms.=Nylon, rayon and polyester are _________ threads.]]></subq>
+				<ans><![CDATA[Wool=Clothes=Winter=Silk=Manmade]]></ans>
+			</question>
+			
+			<question chapter="3" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_3_ex_3.png]]></images>
+				<ans><![CDATA[Animal skin=Umbrella=Man Mask=Uniform]]></ans>
+			</question>
+			
+			<question chapter="3" type="picQ">
+				<questTitle><![CDATA[Look at the Picture below.]]></questTitle>
+				<subq><![CDATA[Guess the season depicted in the picture.]]></subq>
+				<images><![CDATA[ch_3_ex_5.png]]></images>
+				<ans><![CDATA[The season represented in the given picture is the winter season. The winter season is extremely cold. Therefore, we wear clothes that keep us warm. Clothes made of wool and silk keep us warm.]]></ans>
+			</question>
+			
+			<question chapter="3" type="short">
+				<questTitle><![CDATA[Short answer type questions]]></questTitle>
+				<subq><![CDATA[What are man-made threads?=Name 4 items made of leather.]]></subq>
+				<ans><![CDATA[Some threads are made in factories. These are man-made threads. Nylon, rayon and polyester are the most common. Clothes made of these are stronger and last longer.=We also wear items made of leather. We wear leather coats and jackets in winters. All through the year, we use belts, wallets, shoes and purses made of leather.]]></ans>
+			</question>
+			
+			<question chapter="3" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[What do you know about the summer season? What type of clothes do we wear in summer season?]]></subq>
+				<ans><![CDATA[In the summer season, we wear clothes that are light and keep us cool. Clothes made of cotton and linen keep us cool. Linen is a kind of fine cotton. We get cotton from the cotton plant. Cotton is spun to make thread and this thread is used to make cloth. Our clothes protect us from the heat in this season.]]></ans>
+			</question>
+			
+			<question chapter="4" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[One who rings bell at the end of every period is <br />  i. Peon <br />  ii. Driver <br />  iii. Gardener <br />  iv. Teacher <br />=The ______ ensure the safety of the school. <br />  i. Sweeper <br />  ii. Maids <br />  iii. Guards <br />  iv. Peon <br />=Children’s day is celebrated on  <br />  i. 14 November <br />  ii. 6 December <br />  iii. 12 February <br />  iv. 20 June <br />=We celebrate teacher’s day on  <br />  i. 6 November <br />  ii. 5 September <br />  iii. 26 October <br />  iv. 4 January <br /> =They teach us good manners <br />  i. Gardener <br />  ii. Principal <br />  iii. Guards  <br />  iv. Teacher]]></subq>
+				<ans><![CDATA[Peon=Peon=14 November=5 September=Teacher]]></ans>
+			</question>
+		
+			<question chapter="4" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[The librarian helps keep record of students in the school.=The vice-president looks after the various activities of the school and helps the principal.=The teacher teaches us only one subject.=A time table tells us about subjects to be studied on a particular day and period.=We all go to school to learn bad habits.]]></subq>
+				<ans><![CDATA[False=True=False=False=True]]></ans>
+			</question>
+			
+			<question chapter="4" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[The ________ is the head of the institution.=Teacher helps us to become good and _______.=The _______ collects fees.=We must keep our school _____ and______.=The birthday of ______ is celebrated as Children’s Day.]]></subq>
+				<ans><![CDATA[Fire station=Red and brigade=Recreation=Postcards, stamps and stamped envelopes=Stationary shop]]></ans>
+			</question>
+			
+			<question chapter="4" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_4_ex_4.png]]></images>
+				<ans><![CDATA[Plants]=School Bus=Bell=Books=Oldest School]]></ans>
+			</question>
+			
+			<question chapter="4" type="picQ">
+				<questTitle><![CDATA[Look at the Picture below.]]></questTitle>
+				<subq><![CDATA[Who is this person?]]></subq>
+				<images><![CDATA[ch_4_ex_5.png]]></images>
+				<ans><![CDATA[The picture given here is of a sweeper. Sweepers and maids help keep the school surroundings clean and tidy.]]></ans>
+			</question>
+			
+			<question chapter="4" type="short">
+				<questTitle><![CDATA[Short answer type questions]]></questTitle>
+				<subq><![CDATA[What extracurricular activities do we perform in school?=How is the timetable important?]]></subq>f
+				<ans><![CDATA[We do many extracurricular activities in school. We also learn singing and dancing in the extracurricular activity period.=A timetable tells us about subjects to be studied on a particular day and period. Every class has its own timetable. We should carry all books and notebooks according to the timetable.]]></ans>
+			</question>
+			
+			<question chapter="4" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[Why do we go to school?]]></subq>
+				<ans><![CDATA[We all go to school to read, write and learn manners. We learn different subjects such as Hindi, English, Mathematics, EVS, Art and more. During the physical games education period, we learn to play various games like cricket, football, basketball and badminton. We also learn singing and dancing in the extracurricular activity period. At school, we learn to share our things with our classmates and make friends.]]></ans>
+			</question>
+			
+			<question chapter="5" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[Antilla in _______ is largest house in India. <br />  i. Delhi <br />  ii. Goa <br />  iii. Mumbai <br />  iv Patna <br /> =Which of these serves as temporary house? <br />  i. Hut  <br />  ii. Duplex <br />  iii. Bungalow <br />  iv. Apartment <br /> =People live in Antarctica make house of  <br />  i. Wood  <br />  ii. Snow  <br />  iii. Mud <br />  iv. Bricks <br /> =We need House to  <br />  i. Sleep only <br />  ii. Live in  <br />  iii. Play  <br />  iv. Travel  <br /> =How many types of houses are there? <br />  i. 5 <br />  ii. 4 <br />  iii. 6 <br /> iv. 2 ]]></subq>
+				<ans><![CDATA[Mumbai=Hut =Snow =Live in =2 ]]></ans>
+			</question>
+		
+			<question chapter="5" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[ Houses don’t protect us.=An apartment is a large building containing a number of houses.=People living in the hilly areas build houses with flat roofs.=Some people do not live in one place but move from place to place.=A mason builds the walls, floors and roofs.]]></subq>
+				<ans><![CDATA[False=True=False=True=True]]></ans>
+			</question>
+			
+			<question chapter="5" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[A _______ is made of mud, straw or wood.=A______ is made of Bricks, cement, stones and steel.=A_____ is a very tall building with many flats called apartment.=A bungalow is closer to the ground called ________. =People, who live in areas that get heavy rainfall, built _______ houses.]]></subq>
+				<ans><![CDATA[Hut=Pucca house=Skyscraper=Portico=Stilt]]></ans>
+			</question>
+			
+			<question chapter="5" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_5_ex_4.png]]></images>
+				<ans><![CDATA[Furniture=Design of the house=Bottom of the house=Paints the house=Waste bins]]></ans>
+			</question>
+					
+			<question chapter="5" type="picQ">
+				<questTitle><![CDATA[Look at the Picture below.]]></questTitle>
+				<subq><![CDATA[Can you identify the picture given above?]]></subq>
+				<images><![CDATA[ch_5_ex_5.png]]></images>
+				<ans><![CDATA[People who live in very cold regions such as the Arctic or the Antarctic make houses with snow. These houses are known as igloos. The given picture is of an igloo.]]></ans>
+			</question>
+			
+			<question chapter="5" type="short">
+				<questTitle><![CDATA[Short answer type questions]]></questTitle>
+				<subq><![CDATA[Why should we have airy and well lit houses?=Houses built in hilly areas are unique. How?]]></subq>
+				<ans><![CDATA[A home should have enough doors and windows. This will allow fresh air to come in. The rooms should be planned in such a way that they are airy and well lit. Sunlight helps keep our home germfree. <br /> =People living in the hilly areas build houses with sloping roofs in order to allow the rain and snow to slide off. These roofs are made of tiles or wood.]]></ans>
+			</question>
+			<question chapter="5" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[Some people don’t live in houses? Who are they?]]></subq>
+				<ans><![CDATA[Some people do not live in one place but move from place to place. Such people are called nomads who live in temporary houses called caravans. Nomads also live in tents made of canvas. They generally travel in carts or cars that have enough space for them to sleep. They also carry most of their necessary daily items of need with them.]]></ans>
+			</question>				
+			
+		</questions>	 
+		
+	</data>

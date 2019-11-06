@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<html>
+  <head>
+    <style>
+/*---------liquid layout for template-------*/
+	
+.container
+{
+    width: 100vw; 
+    height: 56.20vw; /* height:width ratio = 9/16 = .5625    126:75                 */
+    max-height: 100vh;
+    max-width: 177.8vh; /* 16/9 = 1.778     */
+    margin: auto;
+    position: absolute;
+    top:0;bottom:0; /* vertical center */
+    left:0;right:0; /* horizontal center */
+    background-color: #4c4c4c;
+	<!-- background-image: url('course/images/img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;   -->
+}  
+
+</style>
+<script src="course/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+
+	top.window.moveTo(0,0); 
+	if (document.all)
+	{ 
+		top.window.resizeTo(screen.availWidth,screen.availHeight); 
+	} 
+	else if (document.layers || document.getElementById) 
+	{ 
+		if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth)
+		{
+			window.resizeTo(top.screen.availWidth, top.screen.availHeight);
+		} 
+	}
+	
+window.onload = maxWindow;
+    function maxWindow() {
+        window.moveTo(0, 0);
+        if (document.all) {
+            top.window.resizeTo(screen.availWidth, screen.availHeight);
+        }
+
+        else if (document.layers || document.getElementById) {
+            if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth) {
+                top.window.outerHeight = screen.availHeight;
+                top.window.outerWidth = screen.availWidth;
+            }
+        }
+    }	
+	
+</script>
+  </head>
+  <body>
+
+	<object data="./course/index.html" style="overflow:hidden; overflow:inherit;" class="container"></object>
+
+  </body>
+</html>
