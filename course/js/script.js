@@ -355,11 +355,13 @@ $('#AddButton').click(function(){
 		$('.showQuestions').append('<div class="showQuestionStyle" id="'+questModeCheck+'"><strong><span style="float: right;">['+marks+']</span></strong></div>');		
 		$('#'+questModeCheck).append('<strong><div id="'+showQuestionTypeList+'">'+showQuestionTypeList+'. '+questModeText+'</div></strong>')		
 		$('#'+questModeCheck).append('<ol type="a" class="showQuestionList'+questModeCheck+'"></ol>');
+		var imageCorrection = 0;
 		for(var i=0; i<selectedpicQ.length; i++){
-			$('.showQuestionList'+questModeCheck).append('<img style="width: 60vmin; height: 25vmin;" src="'+selectedImage[i]+'"/>')	
+			$('.showQuestionList'+questModeCheck).append('<img style="width: 60vmin; height: 25vmin;" src="'+selectedImage[imageCorrection]+'"/>')	
 			$('.showQuestionList'+questModeCheck).append('<li>'+selectedpicQ[i]+'</li>');
 			$('.showQuestionList'+questModeCheck).append('<span class="hidePreviewAnswers" style="color: red;">Answer: '+selectedAnswers[i]+'</span>')
 			console.log(selectedpicQ[i]);
+			imageCorrection = imageCorrection + 2;
 		}
 		showQuestionTypeList = showQuestionTypeList + 1;
 	}
